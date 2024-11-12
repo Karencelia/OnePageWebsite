@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+/* .main-pic{
+    filter: grayscale();
+} */
+#logoBottom2{
+    margin-top: -10px;
+}
+.h2{
+    color: white;
+}
+.countdown-container{
+    color: white;
+}
+.important{
+    background-color: #272621;
+}
+ul li{
+    color: white;
+}
+.contact-section{
+    background-color: #272621;
+    color: white;
+}
+.contact-info>p{
+    color: white;
+}
+.contact-form input{
+    outline: none;
+    background-color: #272621;
+    color: white;
+}
+.contact-form textarea{
+    background-color: #272621;
+}
+input{
+    background-color: #333;
+    color: white;
+}
+
+.sun{
+    visibility: hidden;
+    color: yellow;
+    /* display: flex;
+    display: none; */
+}
+
+.moon {
+    color: white;
+    /* display: flex;
+    display: none; */
+}
+.button{
+    background-color: red!important;
+}
+.download{
+    filter: none;
+}
+@media (max-width: 768px){
+    .logo-img{
+        margin-top: 10px;
+        margin-left: -20px;
+        width: 45px;
+    }
+    .detail{
+        background-color: #272621;
+        color: white;
+    }
+    .shapeTop{
+        display: none;
+    }
+}

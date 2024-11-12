@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+    color: black;
+}
+/* .shapetop{
+    margin-top: 160px;
+    overflow: hidden;
+} */
+
+.sun{
+    color: yellow;
+    /* visibility: visible; */
+}
+
+.moon {
+    color: white;
+    visibility: hidden;
+}
