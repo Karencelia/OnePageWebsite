@@ -26,20 +26,20 @@ function togglemode() {
         // 
 
 
-if (themeStyle.getAttribute('href') === 'light.css') {
-        themeLink.setAttribute('href', 'dark.css');
+if (themeStyle.getAttribute('href') === 'css/light.css') {
+        themeLink.setAttribute('href', 'css/dark.css');
         toggleIcon.className = 'fa-solid fa-toggle-on toggleon';
-        shapeTop.src = '../assets/img/shape-top-black-80.png';
-        logoBottom.src = '../assets/img/shape-bottom-black-80.png';
-        bottomGrey.src = '../assets/img/shape-top-dark-grey-80.png';
+        shapeTop.src = 'assets/img/shape-top-black-80.png';
+        logoBottom.src = 'assets/img/shape-bottom-black-80.png';
+        bottomGrey.src = 'assets/img/shape-top-dark-grey-80.png';
 }
 
 else {
-        themeStyle.setAttribute('href', 'light.css');
+        themeStyle.setAttribute('href', 'css/light.css');
         toggleIcon.className = 'fa-solid fa-toggle-on toggleon';
-        shapeTop.src = '../assets/img/shape-top-white-80.png';
-        logoBottom.src = '../assets/img/shape-bottom-white-80.png';
-        bottomGrey.src = '../assets/img/shape-top-grey-80.png';
+        shapeTop.src = 'assets/img/shape-top-white-80.png';
+        logoBottom.src = 'assets/img/shape-bottom-white-80.png';
+        bottomGrey.src = 'assets/img/shape-top-grey-80.png';
 }
 }
    
